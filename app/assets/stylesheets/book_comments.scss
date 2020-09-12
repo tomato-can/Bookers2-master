@@ -1,0 +1,35 @@
+// Place all the styles related to the bookComents controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.comment-field{
+	.comment-form{
+
+		.text_area{
+			width: 100%;
+		}
+	}
+
+	.comment-list{
+		.comment-box{
+			background-color: #dcdcdc;
+			width: 100%;
+			padding: 5%;
+			border: solid 1px #808080;
+
+			a{
+				text-decoration: none;
+			}
+
+			.comment-user{
+				padding: 0;
+			}
+
+			.comment-content {
+				padding: 0;
+
+			}
+
+		}
+	}
+}
